@@ -1,12 +1,12 @@
 import React from 'react'
-import './navBar.css'
+import './nav.scss'
 
 const NavBar = () => {
     return (
        <>
         <nav className="navbar">
             <div>
-                <h1>Cotar-me</h1>
+                <h1>Minv</h1>
             </div>
             <ul>
                 <a 

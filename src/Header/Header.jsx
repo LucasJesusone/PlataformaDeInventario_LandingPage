@@ -5,9 +5,11 @@ import './Header.scss'
 const Header = () => {
 
         return (
-           <div className="main">
-               <h1>Plataforma de Inventário</h1>
-           </div>
+           <header className="header">
+               <div className="head">
+                    <h1 className="title-header">Plataforma de Inventário</h1>
+               </div>
+           </header>
         )
          
 }

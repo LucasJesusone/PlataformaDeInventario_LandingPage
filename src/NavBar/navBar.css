@@ -1,0 +1,13 @@
+.navbar {
+    position: fixed;
+    z-index: 99;
+    background-color: #eee;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 60px;
+    border-radius: 3px;
+    box-shadow: 0.5rem 0rem 0.5rem 0.4rem rgb(189, 186, 186);
+}

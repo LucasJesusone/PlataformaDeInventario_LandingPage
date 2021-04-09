@@ -3,43 +3,43 @@ import './Main.scss'
 
 const Main = () => {
   return (
-    <div>
-      <div>
-        <p>01</p>
-        <h2>Interface Amigável</h2>
+    <div className='services'>
+      <div className="service-column">
+        <h2>INTERFACE AMIGÁVEL</h2>
         <p>
           O app Minv foi construído para ser fácil e simples em qualquer app
         </p>
       </div>
-      <div>
-        <p>01</p>
-        <h2>Interface Amigável</h2>
+      <div className="service-column" >
+
+        <h2>100% INTEGRADO</h2>
         <p>
-          O app Minv foi construído para ser fácil e simples em qualquer app
+        Construímos todas interfaces no seu SAP para você não se preocupar com integrações
         </p>
       </div>
-      <div>
-        <p>01</p>
-        <h2>Interface Amigável</h2>
+      <div className="service-column">
+
+        <h2>SUPORTE OFFLINE</h2>
         <p>
-          O app Minv foi construído para ser fácil e simples em qualquer app
+        Realize o inventário em áreas sem acesso à internet e quando estiver online, integre facilmente os dados
         </p>
       </div>
-      <div>
-        <p>01</p>
-        <h2>Interface Amigável</h2>
+      <div className="service-column">
+
+        <h2>USUÁRIOS ILIMITADOS</h2>
         <p>
-          O app Minv foi construído para ser fácil e simples em qualquer app
+        Disponibilizamos quantos usuários você precisar, sem limitações
         </p>
       </div>
-      <div>
-        <p>01</p>
-        <h2>Interface Amigável</h2>
+      <div className="service-column">
+
+        <h2>RELATÓRIOS</h2>
         <p>
-          O app Minv foi construído para ser fácil e simples em qualquer app
+        Todos relatórios podem ser extraídos diretamente do SAP em tempo real
         </p>
       </div>
     </div>
+    
   );
 };
 

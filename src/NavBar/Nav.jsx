@@ -8,7 +8,6 @@ const NavBar = () => {
       <nav className="navbar">
         <div>
         <h1>Minv</h1>
-        <h2>Plataforma de Inventário</h2>
         </div>
         <ul>
           <a

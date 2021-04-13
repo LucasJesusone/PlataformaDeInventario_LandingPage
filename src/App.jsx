@@ -1,7 +1,8 @@
 import "./App.css";
-import { LandingProvider } from "./content/context";
+import { LandingProvider } from "./Context/context";
 import Footer from "./Footer/Footer";
-//import Header from "./Header/Header";
+import Header from "./Header/Header";
+import Inventory from "./Inventory_Opening/InventoryOpening";
 
 import Main from "./Main/Main";
 import Nav from "./Navbar/Nav";
@@ -9,9 +10,11 @@ import Nav from "./Navbar/Nav";
 function App() {
   return  (
     <LandingProvider classname="container" >
-  <Nav />
-  <Main />
-  <Footer/>
+    <Nav />
+    <Header />
+    <Main />
+    <Inventory />
+    <Footer />
   </LandingProvider>
 )
 }

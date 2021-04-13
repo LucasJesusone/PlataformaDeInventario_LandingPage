@@ -1,13 +1,18 @@
 .header {
-    height: 15rem;
+    height: 12rem;
     position: relative;
     background-color: #36F;
+
+
     .head {
         position: relative;
-        top: 10rem;
+        top: 7rem;
     }
 
     .title-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-size: 2rem;
         margin-top: 5rem;
         font-weight: bold;
@@ -17,7 +22,4 @@
         letter-spacing: 2px;
         color: #FFF;
     }
- }
- 
- 
- 
+}

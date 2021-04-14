@@ -1,13 +1,14 @@
 .navbar {
+    display: flex;
+
     position: fixed;
     z-index: 99;
     background-color: #eee;
     width: 100%;
     margin: 0 auto;
-    padding: 12px 0;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    top: 0
+    padding: 12px;
+    height: 3.5rem;
+    top: 0;
 
 
 

@@ -15,8 +15,6 @@ const NavBar = () => {
             target="_blank"
             rel="noreferrer"
           />
-
-          <button>Login</button>
         </ul>
       </nav>
       

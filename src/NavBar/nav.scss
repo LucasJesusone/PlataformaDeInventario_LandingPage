@@ -1,15 +1,13 @@
 .navbar {
-    display: flex;
-
     position: fixed;
     z-index: 99;
     background-color: #eee;
     width: 100%;
-    margin: 0 auto;
-    padding: 12px;
-    height: 3.5rem;
+    margin: 0 auto;  
+    padding: 12px 0;
+    height: 40px;
+    border-radius: 2px;
     top: 0;
-
 
 
 }

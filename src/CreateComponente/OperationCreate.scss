@@ -1,5 +1,17 @@
 .operationCreate {
-    display: flex;
+    
     background-color: chartreuse;
     height: auto;
+
+    .styleCreate{
+        h1 {
+            display: flex;
+            justify-content: center;
+            color: #F22;
+            margin-bottom: 2rem;
+            
+        }
+        color: #FFF;
+    }
+
 }

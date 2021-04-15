@@ -1,5 +1,29 @@
-.header {
-    margin-top: 5rem;
-    background-color: aqua;
+.services {
+    background-image: url('../assets/images/image1.png');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-size: 180px;
+
+
+
     display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    height: auto;
+    padding: 10px;
+    background-color: #dcdcdc;
+    margin-top: 4rem;
+
+    .service-column {
+        width: 100%;
+        border-radius: 10px;
+        margin-left: 1rem;
+        width: 100%;
+        margin-top: 0.5rem;
+
+
+    }
+
 }

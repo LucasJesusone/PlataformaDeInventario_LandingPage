@@ -1,12 +1,14 @@
-.inventoryMain {
-    .div {
-        display: flex;
-
+.div {
+    display: flex;
+    flex-direction: column;
+    
+    span:first-child { 
+      text-transform: uppercase;
+      line-height: 2rem;
     }
 
-
-    span {
-        
-        margin-left: 1rem;
+    span:last-child { 
+      text-transform: uppercase;
+      margin-top: 1rem;
     }
 }

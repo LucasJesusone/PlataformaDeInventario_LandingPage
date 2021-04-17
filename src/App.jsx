@@ -14,7 +14,6 @@ function App() {
     <LandingProvider classname="container" >
     <Nav/>
     <Header/>
-    <Inventory/>
     <OperationCreate/>
     <Reader/>
   </LandingProvider>

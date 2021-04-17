@@ -2,20 +2,21 @@ import "./App.css";
 import { LandingProvider } from "./Context/context";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import Inventory from "./Inventory_Opening/InventoryOpening";
+import Inventory from "./InventoryComponente/InventoryOpening";
 
 
 import Nav from "./Navbar/Nav";
-import OperationCreate from "./OperationCreate/OperationCreate";
+import OperationCreate from "./CreateComponente/OperationCreate";
+import Reader from "./ReaderComponente/ReaderComponente";
 
 function App() {
   return  (
     <LandingProvider classname="container" >
-    <Nav />
-    <Header />
-    <Inventory />
-    <OperationCreate />
-    <Footer />
+    <Nav/>
+    <Header/>
+    <Inventory/>
+    <OperationCreate/>
+    <Reader/>
   </LandingProvider>
 )
 }

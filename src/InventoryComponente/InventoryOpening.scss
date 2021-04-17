@@ -1,9 +1,12 @@
 .inventoryMain {
-    display: flex;
-    background-color: aquamarine;
-    height: auto;
+    .div {
+        display: flex;
+
+    }
+
+
+    span {
+        
+        margin-left: 1rem;
+    }
 }
-
-
-
-

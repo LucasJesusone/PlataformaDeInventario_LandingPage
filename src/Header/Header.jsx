@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <>
       <div className="services">
-        <h2>Plataforma de Inventário</h2>
         <div className="service-column">
           <h2>INTERFACE AMIGÁVEL</h2>
           <span>
@@ -53,23 +52,7 @@ const Header = () => {
             </p>
           </span>
         </div>
-        <div className="div">
-      <span>
-        <h1>
-          Abertura <br />
-          de Inventário
-        </h1>
-      </span>
-
-      <span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur <br /> adipisicing elit. Modi
-          eos quis consequatur cumque exercitationem <br /> praesentium aut,
-          earum doloribus? Sunt quis consequatur corrupti <br /> adipisci fugiat
-          facilis sit quas, nisi porro accusamus.
-        </p>
-      </span>
-    </div>
+    
       </div>
     </>
   );

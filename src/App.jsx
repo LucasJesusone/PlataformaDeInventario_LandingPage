@@ -1,8 +1,7 @@
 import "./App.css";
 import { LandingProvider } from "./Context/context";
-import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import Inventory from "./InventoryComponente/InventoryOpening";
+
 
 
 import Nav from "./Navbar/Nav";

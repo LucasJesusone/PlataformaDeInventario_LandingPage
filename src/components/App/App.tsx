@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-import Promo from '../Promo';
+// import Promo from '../Promo';
 import About from '../About';
 import Services from '../Services';
 import Footer from '../Footer';
@@ -14,9 +14,10 @@ const App: React.FC = () => {
 		<div id="App">
 			<Header />
 			<main>
-				<Promo />
-				<About />
+				{/* <Promo /> */}
+				
 				<Services />
+				<About />
 				<Works />
 				<Pricing />
 				<Blog />

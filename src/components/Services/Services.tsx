@@ -15,35 +15,28 @@ const Services: React.FC & ServicesComponent = () => {
 	return (
 		<div className={cx(s.serviceContainer, 'article-container')} id="Services">
 			<Container>
-				<Title title="Our Services">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labore
-					et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam,
+				<Title title="PLATAFORMA DE INVENTÁRIO">
 				</Title>
 				<Row>
-					<Services.Card title="Research">
+					<Services.Card title="Interface Amigável">
+						O aplicativo Minv foi construido para ser simples e fácil de utilizar em qualquer aparelho <strong>Android</strong>
+					</Services.Card>
+					<Services.Card title="100% Integrado">
+						Construímos todas interfaces no seu SAP para você não se preocupar com integrações.
+					</Services.Card>
+					<Services.Card title="Suporte Offline">
+						Realize o inventário em áreas sem acesso à internet e quando estiver online, integre facilmente os dados.
+					</Services.Card>
+					<Services.Card title="Usuários Ilimitados">
+						 Disponibilizamos quantos usuários for necessários, sem limitações
+					</Services.Card>
+					<Services.Card title="Relatórios">
+						Todos relatórios podem ser extraídos diretamente do SAP em tempo real.
+					</Services.Card>
+					{/* <Services.Card title="Design">
 						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
 						corrupti quos.
-					</Services.Card>
-					<Services.Card title="Portfolio">
-						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
-						corrupti quos.
-					</Services.Card>
-					<Services.Card title="Support">
-						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
-						corrupti quos.
-					</Services.Card>
-					<Services.Card title="Documentation">
-						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
-						corrupti quos.
-					</Services.Card>
-					<Services.Card title="Development">
-						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
-						corrupti quos.
-					</Services.Card>
-					<Services.Card title="Design">
-						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
-						corrupti quos.
-					</Services.Card>
+					</Services.Card> */}
 				</Row>
 			</Container>
 		</div>

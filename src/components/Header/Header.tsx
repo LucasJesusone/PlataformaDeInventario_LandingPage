@@ -14,7 +14,8 @@ const Header: React.FC = () => {
 				<Row className="align-items-center">
 					<Col className="d-flex justify-content-between">
 						<a className={cx('textBold', s.logo)} href="#">
-							Your logo
+							Minv <br/>
+							Plataforma De Inventário
 						</a>
 						<ul className={s.list}>
 							<li>
@@ -27,7 +28,7 @@ const Header: React.FC = () => {
 									Servicing
 								</Link>
 							</li>
-							<li>
+							{/* <li>
 								<Link smooth={true} to="Works" className={s.link}>
 									Portfolio
 								</Link>
@@ -46,7 +47,7 @@ const Header: React.FC = () => {
 								<Link smooth={true} to="Contact" className={s.link}>
 									Contact Us
 								</Link>
-							</li>
+							</li> */}
 						</ul>
 					</Col>
 				</Row>

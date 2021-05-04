@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Title from '../Title';
 import ServicesCard from './ServicesCard';
 import { ServicesCardProps } from './ServicesCard/ServicesCard';
-import s from './Services.module.sass';
+import s from './Services.module.scss';
 
 interface ServicesComponent {
 	Card: React.FC<ServicesCardProps>;

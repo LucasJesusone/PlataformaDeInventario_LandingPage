@@ -5,10 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Title from '../Title';
 import s from './About.module.sass';
-
 import internetIcon from '../../images/internet-icon.png';
 import transferIcon from '../../images/transfer-icon.png';
 import headIcon from '../../images/head-icon.png';
+
 
 const About: React.FC = () => {
 	return (
@@ -36,7 +36,7 @@ const About: React.FC = () => {
 						</div>
 					</div>
 				</Col>
-				<Col sm={4} xs={12}>
+				<Col sm={4} xs={12} >
 					<div className={s.aboutItem}>
 						<img src={headIcon} alt="headIcon" />
 						<div className={cx(s.title, 'textSemibold')}>Fully Responsive</div>
@@ -46,6 +46,7 @@ const About: React.FC = () => {
 					</div>
 				</Col>
 			</Row>
+		
 		</Container>
 	);
 };

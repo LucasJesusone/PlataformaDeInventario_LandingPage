@@ -14,8 +14,7 @@ const Header: React.FC = () => {
 				<Row className="align-items-center">
 					<Col className="d-flex justify-content-between">
 						<a className={cx('textBold', s.logo)} href="#">
-							Minv <br/>
-							Plataforma De Inventário
+								MINV
 						</a>
 						<ul className={s.list}>
 							<li>

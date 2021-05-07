@@ -10,6 +10,10 @@ import image from '../../images/image--017.png';
 import image1 from '../../images/image--014.png';
 import image2 from '../../images/image--023.png';
 import image3 from '../../images/image2.png';
+import image4 from '../../images/image--026.png';
+import image5 from '../../images/image--029.png';
+import image6 from '../../images/image--032.png';
+import image7 from '../../images/image--033.png';
 import Row from 'react-bootstrap/Row';
 // import Button from '../UI/Button';
 import Col from 'react-bootstrap/Col';
@@ -23,20 +27,18 @@ const Blog: React.FC & BlogComponent = () => {
 		<>
 			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
 				<Container>
-				
 					<Row className={style.image1}>
-							<img src={image1} alt="" width="600" />
-
+						<img src={image1} alt="" width="600" />
 					</Row>
-					<Row className={style.image} >
+					<Row className={style.image}>
 						<img src={image} alt="" width="280" />
 						<Title
-						title="ABERTURA DE 
+							title="ABERTURA DE 
 						INVENTÁRIO"
-					>
-						<strong>Faça abertura/encerramento dos inventários</strong> diretamente do SAP{' '}
-						<strong>100% integrado</strong> com a aplicação mobile MINV
-					</Title>
+						>
+							<strong>Faça abertura/encerramento dos inventários</strong> diretamente do SAP{' '}
+							<strong>100% integrado</strong> com a aplicação mobile MINV
+						</Title>
 					</Row>
 
 					{/* <Row>
@@ -58,12 +60,74 @@ const Blog: React.FC & BlogComponent = () => {
 						</Row>
 						<Col md={5} className={style.image2}>
 							<img src={image2} alt="" width="280" />
-							
 						</Col>
-						<Title title="CRIAÇÃO DE
-						OPERAÇÃO">
-							<strong>Crie Facilmente operações de</strong><br/><strong>inventário/baixa</strong> utilizando o leitor <br/>de código de barras
+						<Title
+							title="CRIAÇÃO DE
+						OPERAÇÃO"
+						>
+							<strong>Crie Facilmente operações de</strong>
+							<br />
+							<strong>inventário/baixa</strong> utilizando o leitor <br />
+							de código de barras
 						</Title>
+					</Row>
+					{/* <Row>
+					<Col>
+						<div className={cx(s.linkContainer, 'd-flex', 'justify-content-center')}>
+							<Button square green big link>
+								More View
+							</Button>
+						</div>
+					</Col>
+				</Row> */}
+				</Container>
+			</div>
+			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
+				<Container>
+					<Row>
+						<Row md={7} className={style.image4}>
+							<img src={image5} alt="" width="280" height="500" />
+						</Row>
+						<Col md={4} className={style.image5}>
+							<img src={image4} alt="" width="280" />
+						</Col>
+						<Title title="LEITOR DE CÓDIGO DE BARRAS">
+							<strong>Crie Facilmente operações de</strong>
+							<br />
+							<strong>inventário/baixa</strong> utilizando o leitor <br />
+							de código de barras
+						</Title>
+					</Row>
+					{/* <Row>
+					<Col>
+						<div className={cx(s.linkContainer, 'd-flex', 'justify-content-center')}>
+							<Button square green big link>
+								More View
+							</Button>
+						</div>
+					</Col>
+				</Row> */}
+				</Container>
+			</div>
+			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
+				<Container>
+					<Title title="ACOMPANHAMENTO DE OPERAÇÃO"></Title>
+					<Row>
+						<Col md={5} className={style.image6}>
+							<img src={image6} alt="" width="1200" />
+						</Col>
+
+						<Row md={7} className={style.image7}>
+							<img src={image7} alt="" width="750" height="500" />
+						</Row>
+						<Col md={3} className={style.title}>
+							<Title title="">
+								<strong>Acompanhe todas operações</strong> que são feitas no aplicativo diretamente do SAP
+								<Title title="">
+									Veja <strong>quais dados foram modificados </strong> no momento da operação.
+								</Title>
+							</Title>
+						</Col>
 					</Row>
 					{/* <Row>
 					<Col>

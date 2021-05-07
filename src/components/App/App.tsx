@@ -7,7 +7,7 @@ import Footer from '../Footer';
 // import Pricing from '../Pricing';
 import Blog from '../Blog';
 // import Works from '../Works';
-import Contact from '../Contact';
+// import Contact from '../Contact';
 
 const App: React.FC = () => {
 	return (
@@ -17,11 +17,12 @@ const App: React.FC = () => {
 				{/* <Promo /> */}
 				
 				<Services />
-				<About />
+			
 				{/* <Works /> */}
 				{/* <Pricing /> */}
 				<Blog />
-				<Contact />
+				<About />
+				{/* <Contact /> */}
 			</main>
 			<Footer />
 		</div>

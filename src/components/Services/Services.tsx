@@ -31,7 +31,7 @@ const Services: React.FC & ServicesComponent = () => {
 						 Disponibilizamos quantos usuários for necessários, sem limitações
 					</Services.Card>
 					<Services.Card title="Relatórios">
-						Todos relatórios podem ser extraídos diretamente do SAP em tempo real.
+						Relatórios podem ser extraídos diretamente do SAP em tempo real.
 					</Services.Card>
 					{/* <Services.Card title="Design">
 						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque

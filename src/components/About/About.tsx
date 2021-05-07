@@ -13,7 +13,7 @@ import headIcon from '../../images/head-icon.png';
 const About: React.FC = () => {
 	return (
 		<Container className="article-container" id="About">
-			<Title title="Implementação">
+			<Title title="IMPLEMENTAÇÃO">
 			</Title>
 			<Row className="space-around">
 				<Col sm={3} xs={12}>

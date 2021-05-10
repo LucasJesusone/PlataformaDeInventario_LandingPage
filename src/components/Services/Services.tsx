@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Title from '../Title';
 import ServicesCard from './ServicesCard';
 import { ServicesCardProps } from './ServicesCard/ServicesCard';
-import s from './Services.module.scss';
+import style from './Services.module.scss';
 
 interface ServicesComponent {
 	Card: React.FC<ServicesCardProps>;
@@ -13,7 +13,7 @@ interface ServicesComponent {
 
 const Services: React.FC & ServicesComponent = () => {
 	return (
-		<div className={cx(s.serviceContainer, 'article-container')} id="Services">
+		<div className={cx(style.serviceContainer, 'article-container')} id="Services">
 			<Container>
 				<Title title="PLATAFORMA DE INVENTÁRIO">
 				</Title>
@@ -33,10 +33,6 @@ const Services: React.FC & ServicesComponent = () => {
 					<Services.Card title="Relatórios">
 						Relatórios podem ser extraídos diretamente do SAP em tempo real.
 					</Services.Card>
-					{/* <Services.Card title="Design">
-						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
-						corrupti quos.
-					</Services.Card> */}
 				</Row>
 			</Container>
 		</div>

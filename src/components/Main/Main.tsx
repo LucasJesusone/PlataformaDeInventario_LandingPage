@@ -1,11 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import cx from 'classnames';
-import style from './Blog.module.sass';
+import style from './Main.module.sass';
 import Container from 'react-bootstrap/Container';
 import Title from '../Title';
-import BlogArticle from './BlogArticle';
-import { BlogArticleProps } from './BlogArticle/BlogArticle';
 import image from '../../images/image--017.png';
 import image1 from '../../images/image--014.png';
 import image2 from '../../images/image--023.png';
@@ -15,17 +13,17 @@ import image5 from '../../images/image--029.png';
 import image6 from '../../images/image--032.png';
 import image7 from '../../images/image--033.png';
 import Row from 'react-bootstrap/Row';
-// import Button from '../UI/Button';
 import Col from 'react-bootstrap/Col';
+import MainArticle, { MainArticleProps } from './MainArticle/MainArticle';
 
-interface BlogComponent {
-	Article: React.FC<BlogArticleProps>;
+interface MainComponent {
+	Article: React.FC<MainArticleProps>;
 }
 
-const Blog: React.FC & BlogComponent = () => {
+const Main: React.FC & MainComponent = () => {
 	return (
 		<>
-			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
+			<div className={cx(style.mainContainer, 'article-container')} id="Blog">
 				<Container>
 					<Row className={style.image1}>
 						<img src={image1} alt="" width="600" />
@@ -43,7 +41,7 @@ const Blog: React.FC & BlogComponent = () => {
 
 				</Container>
 			</div>
-			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
+			<div className={cx(style.mainContainer, 'article-container')} id="Blog">
 				<Container>
 					<Row>
 						<Row md={7} className={style.image3}>
@@ -65,7 +63,7 @@ const Blog: React.FC & BlogComponent = () => {
 	
 				</Container>
 			</div>
-			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
+			<div className={cx(style.mainContainer, 'article-container')} id="Blog">
 				<Container>
 					<Row>
 						<Row md={7} className={style.image4}>
@@ -84,7 +82,7 @@ const Blog: React.FC & BlogComponent = () => {
 		
 				</Container>
 			</div>
-			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
+			<div className={cx(style.mainContainer, 'article-container')} id="Blog">
 				<Container>
 					<Title title="ACOMPANHAMENTO DE OPERAÇÃO"></Title>
 					<Row>
@@ -110,6 +108,6 @@ const Blog: React.FC & BlogComponent = () => {
 	);
 };
 
-Blog.Article = BlogArticle;
+Main.Article = MainArticle
 
-export default Blog;
+export default Main;

@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Title from '../Title';
-import s from './About.module.sass';
+import style from './About.module.sass';
 import internetIcon from '../../images/internet-icon.png';
 import transferIcon from '../../images/transfer-icon.png';
 import headIcon from '../../images/head-icon.png';
@@ -17,29 +17,29 @@ const About: React.FC = () => {
 			</Title>
 			<Row className="space-around">
 				<Col sm={3} xs={12}>
-					<div className={s.aboutItem}>
+					<div className={style.aboutItem}>
 						<img src={internetIcon} alt="internetIcon" />
-						<div className={cx(s.title, 'textSemibold')}>LEVANTAMENTO DE REQUISITOS</div>
+						<div className={cx(style.title, 'textSemibold')}>LEVANTAMENTO DE REQUISITOS</div>
 	
 					</div>
 				</Col>
 				<Col sm={8} xs={12}>
-					<div className={s.aboutItem}>
+					<div className={style.aboutItem}>
 						<img src={transferIcon} alt="transferIcon" />
-						<div className={cx(s.title, 'textSemibold')}>IMPLEMENTAÇÕES DE SERVIÇOS/INTEGRAÇÕES SAP</div>
+						<div className={cx(style.title, 'textSemibold')}>IMPLEMENTAÇÕES DE SERVIÇOS/INTEGRAÇÕES SAP</div>
 					</div>
 				</Col>
 				<Col sm={8} xs={1} >
-					<div className={s.aboutItem}>
+					<div className={style.aboutItem}>
 						<img src={headIcon} alt="headIcon" />
-						<div className={cx(s.title, 'textSemibold')}>FASE DE TESTES </div>
+						<div className={cx(style.title, 'textSemibold')}>FASE DE TESTES </div>
 					
 					</div>
 				</Col>
 				<Col sm={4} xs={12} >
-					<div className={s.aboutItem}>
+					<div className={style.aboutItem}>
 						<img src={headIcon} alt="headIcon" />
-						<div className={cx(s.title, 'textSemibold')}>GO-LIVE EM PRODUÇÃO</div>
+						<div className={cx(style.title, 'textSemibold')}>GO-LIVE EM PRODUÇÃO</div>
 					
 					</div>
 				</Col>

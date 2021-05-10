@@ -41,15 +41,6 @@ const Blog: React.FC & BlogComponent = () => {
 						</Title>
 					</Row>
 
-					{/* <Row>
-					<Col>
-						<div className={cx(s.linkContainer, 'd-flex', 'justify-content-center')}>
-							<Button square green big link>
-								More View
-							</Button>
-						</div>
-					</Col>
-				</Row> */}
 				</Container>
 			</div>
 			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
@@ -71,15 +62,7 @@ const Blog: React.FC & BlogComponent = () => {
 							de código de barras
 						</Title>
 					</Row>
-					{/* <Row>
-					<Col>
-						<div className={cx(s.linkContainer, 'd-flex', 'justify-content-center')}>
-							<Button square green big link>
-								More View
-							</Button>
-						</div>
-					</Col>
-				</Row> */}
+	
 				</Container>
 			</div>
 			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
@@ -98,15 +81,7 @@ const Blog: React.FC & BlogComponent = () => {
 							de código de barras
 						</Title>
 					</Row>
-					{/* <Row>
-					<Col>
-						<div className={cx(s.linkContainer, 'd-flex', 'justify-content-center')}>
-							<Button square green big link>
-								More View
-							</Button>
-						</div>
-					</Col>
-				</Row> */}
+		
 				</Container>
 			</div>
 			<div className={cx(style.blogContainer, 'article-container')} id="Blog">
@@ -129,15 +104,6 @@ const Blog: React.FC & BlogComponent = () => {
 							</Title>
 						</Col>
 					</Row>
-					{/* <Row>
-					<Col>
-						<div className={cx(s.linkContainer, 'd-flex', 'justify-content-center')}>
-							<Button square green big link>
-								More View
-							</Button>
-						</div>
-					</Col>
-				</Row> */}
 				</Container>
 			</div>
 		</>

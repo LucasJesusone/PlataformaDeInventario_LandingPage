@@ -13,16 +13,10 @@ const App: React.FC = () => {
 	return (
 		<div id="App">
 			<Header />
-			<main>
-				{/* <Promo /> */}
-				
+			<main>	
 				<Services />
-			
-				{/* <Works /> */}
-				{/* <Pricing /> */}
 				<Blog />
 				<About />
-				{/* <Contact /> */}
 			</main>
 			<Footer />
 		</div>

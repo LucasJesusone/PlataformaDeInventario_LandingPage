@@ -29,14 +29,15 @@ const Main: React.FC & MainComponent = () => {
 						<img src={image1} alt="" width="600" />
 					</Row>
 					<Row className={style.image}>
-						<img src={image} alt="" width="280" />
+						<img src={image} alt="" width="300" />
+						<div>
 						<Title
-							title="ABERTURA DE 
-						INVENTÁRIO"
+							title="ABERTURA DE INVENTÁRIO"
 						>
 							<strong>Faça abertura/encerramento dos inventários</strong> diretamente do SAP{' '}
 							<strong>100% integrado</strong> com a aplicação mobile MINV
 						</Title>
+						</div>
 					</Row>
 
 				</Container>

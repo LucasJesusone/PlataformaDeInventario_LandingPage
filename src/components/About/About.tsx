@@ -6,8 +6,10 @@ import Col from 'react-bootstrap/Col';
 import Title from '../Title';
 import style from './About.module.sass';
 import internetIcon from '../../images/internet-icon.png';
-import transferIcon from '../../images/transfer-icon.png';
-import headIcon from '../../images/head-icon.png';
+import implementation from '../../images/implementation.png';
+import headIcon from '../../images/tests.png';
+import production from '../../images/production.png';
+
 
 
 const About: React.FC = () => {
@@ -25,7 +27,7 @@ const About: React.FC = () => {
 				</Col>
 				<Col sm={8} xs={12}>
 					<div className={style.aboutItem}>
-						<img src={transferIcon} alt="transferIcon" />
+						<img src={implementation} alt="transferIcon" />
 						<div className={cx(style.title, 'textSemibold')}>IMPLEMENTAÇÕES DE SERVIÇOS/INTEGRAÇÕES SAP</div>
 					</div>
 				</Col>
@@ -38,7 +40,7 @@ const About: React.FC = () => {
 				</Col>
 				<Col sm={4} xs={12} >
 					<div className={style.aboutItem}>
-						<img src={headIcon} alt="headIcon" />
+						<img src={production} alt="headIcon" />
 						<div className={cx(style.title, 'textSemibold')}>GO-LIVE EM PRODUÇÃO</div>
 					
 					</div>

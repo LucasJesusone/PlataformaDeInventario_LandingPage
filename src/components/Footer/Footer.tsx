@@ -6,10 +6,10 @@ const Footer: React.FC = () => {
 
 	return (
 		<>
-			<div className={style.footer} id="Header">
-				<span className="textBold"> All rights Reserved © {year}</span>
+			<div className={style.footer} >
+				<span className="textBold"> Todos os direitos Reservados © {year}</span>
 			</div>
-			<div className={style.footer}>
+			<div className={style.footer} >
 				<span className="textBold">eniorj1@hotmail.com</span>
 			</div>
 		</>

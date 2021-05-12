@@ -6,15 +6,20 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import style from './Header.module.sass';
 
+import image from '../../images/image--006.png'
+
 const Header: React.FC = () => {
 	return (
 		<header className={style.header} id="Header">
 			<Container>
 				<Row className="align-items-center">
 					<Col className="d-flex justify-content-between">
-						<a className={cx('textBold', style.logo)} href="#">
+						<div className={style.divImage}>
+							<img src={image} alt="" className={style.image}/>
+						</div>
+						{/* <a className={cx('textBold', style.logo)} href="#">
 								MINV
-						</a>
+						</a> */}
 					</Col>
 				</Row>
 			</Container>

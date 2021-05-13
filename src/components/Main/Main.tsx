@@ -25,25 +25,27 @@ const Main: React.FC & MainComponent = () => {
 		<>
 			<div className={cx(style.mainContainer, 'article-container')} id="Blog">
 				<Container>
+					<Title title="ABERTURA DE INVENTÁRIO"></Title>
 					<Row className={style.image1}>
 						<img src={image1} alt="" width="600" />
 					</Row>
 					<Row className={style.image}>
 						<img src={image} alt="" width="300" />
-						<div>
-						<Title
-							title="ABERTURA DE INVENTÁRIO"
-						>
-							<strong>Faça abertura/encerramento dos inventários</strong> diretamente do SAP{' '}
-							<strong>100% integrado</strong> com a aplicação mobile MINV
-						</Title>
-						</div>
+						<Col md={3} className={style.titleInventary}>
+							<Title title="">
+								<strong>Faça abertura/encerramento dos inventários</strong> diretamente do SAP{' '}
+								<strong>100% integrado</strong> com a aplicação mobile MINV
+							</Title>
+						</Col>
 					</Row>
-
 				</Container>
 			</div>
 			<div className={cx(style.mainContainer, 'article-container')} id="Blog">
 				<Container>
+					<Title
+						title="CRIAÇÃO DE
+						OPERAÇÃO"
+					></Title>
 					<Row>
 						<Row md={7} className={style.image3}>
 							<img src={image3} alt="" width="280" height="500" />
@@ -51,21 +53,20 @@ const Main: React.FC & MainComponent = () => {
 						<Col md={5} className={style.image2}>
 							<img src={image2} alt="" width="280" />
 						</Col>
-						<Title
-							title="CRIAÇÃO DE
-						OPERAÇÃO"
-						>
+						<Col md={3} className={style.title}>
+						<Title title="">
 							<strong>Crie Facilmente operações de</strong>
 							<br />
 							<strong>inventário/baixa</strong> utilizando o leitor <br />
 							de código de barras
 						</Title>
+						</Col>
 					</Row>
-	
 				</Container>
 			</div>
 			<div className={cx(style.mainContainer, 'article-container')} id="Blog">
 				<Container>
+					<Title title="LEITOR DE CÓDIGO DE BARRAS"></Title>
 					<Row>
 						<Row md={7} className={style.image4}>
 							<img src={image5} alt="" width="280" height="500" />
@@ -73,14 +74,15 @@ const Main: React.FC & MainComponent = () => {
 						<Col md={4} className={style.image5}>
 							<img src={image4} alt="" width="280" />
 						</Col>
-						<Title title="LEITOR DE CÓDIGO DE BARRAS">
-							<strong>Crie Facilmente operações de</strong>
-							<br />
-							<strong>inventário/baixa</strong> utilizando o leitor <br />
-							de código de barras
-						</Title>
+						<Col md={3} className={style.title}>
+							<Title title="">
+								<strong>Crie Facilmente operações de</strong>
+								<br />
+								<strong>inventário/baixa</strong> utilizando o leitor <br />
+								de código de barras
+							</Title>
+						</Col>
 					</Row>
-		
 				</Container>
 			</div>
 			<div className={cx(style.mainContainer, 'article-container')} id="Blog">
@@ -109,6 +111,6 @@ const Main: React.FC & MainComponent = () => {
 	);
 };
 
-Main.Article = MainArticle
+Main.Article = MainArticle;
 
 export default Main;

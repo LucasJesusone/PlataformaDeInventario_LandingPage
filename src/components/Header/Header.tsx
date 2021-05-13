@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import Title from '../Title';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -17,10 +16,7 @@ const Header: React.FC = () => {
 						<div className={style.divImage}>
 							<img src={image} alt="" className={style.image}/>
 						</div>
-						<div className={style.title}>
-							<Title title="Plataforma de Inventário">
-							</Title>
-						</div>
+
 					</Col>
 				</Row>
 			</Container>

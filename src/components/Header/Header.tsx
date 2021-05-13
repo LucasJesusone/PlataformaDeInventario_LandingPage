@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-// import cx from 'classnames';
+import Title from '../Title';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import style from './Header.module.sass';
 
-import image from '../../images/image--006.png'
+import image from '../../images/logo.svg'
 
 const Header: React.FC = () => {
 	return (
@@ -17,9 +17,10 @@ const Header: React.FC = () => {
 						<div className={style.divImage}>
 							<img src={image} alt="" className={style.image}/>
 						</div>
-						{/* <a className={cx('textBold', style.logo)} href="#">
-								MINV
-						</a> */}
+						<div className={style.title}>
+							<Title title="Plataforma de Inventário">
+							</Title>
+						</div>
 					</Col>
 				</Row>
 			</Container>

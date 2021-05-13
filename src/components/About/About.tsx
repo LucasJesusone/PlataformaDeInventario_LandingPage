@@ -14,7 +14,7 @@ import production from '../../images/production.png';
 
 const About: React.FC = () => {
 	return (
-		<Container className="article-container" id="About">
+		<Container className={"article-container"} id="About">
 			<Title title="IMPLEMENTAÇÃO">
 			</Title>
 			<Row className="space-around">

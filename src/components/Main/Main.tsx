@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Title from '../Title';
 import image from '../../images/image--017.png';
 import image1 from '../../images/image--014.png';
-import image2 from '../../images/image--023.png';
+import image2 from '../../images/png.png';
 import image3 from '../../images/image2.png';
 import image4 from '../../images/image--026.png';
 import image5 from '../../images/image--029.png';
@@ -48,10 +48,10 @@ const Main: React.FC & MainComponent = () => {
 					></Title>
 					<Row>
 						<Row md={7} className={style.image3}>
-							<img src={image3} alt="" width="280" height="500" />
+							<img src={image3} alt="" width="400" height="700" />
 						</Row>
 						<Col md={5} className={style.image2}>
-							<img src={image2} alt="" width="280" />
+							<img src={image2} alt="" width="350" />
 						</Col>
 						<Col md={3} className={style.title}>
 						<Title title="">

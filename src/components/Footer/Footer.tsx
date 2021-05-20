@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
 	return (
 		<>
 			<div className={style.footer}>
-				<span className="textBold">Copyright © MINV 2021 - Todos os direitos Reservados © {year}</span>
+				<span className="textBold">Copyright © MINV {year}- Todos os direitos Reservados </span>
 			</div>
 			{/* <span className={style.contact}>Entre em Contato</span> */}
 			<div className={style.footer}>

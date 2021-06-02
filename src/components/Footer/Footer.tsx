@@ -24,6 +24,7 @@ const Footer: React.FC = () => {
 				<a title="LinkedIn" target="_blank" className={style.icon} href="https://www.linkedin.com/in/eniorafael/">
 					<FiLinkedin size={37} />
 				</a>
+				
 
 				<a title="Whatsapp" target="_blank" className={style.icon} href="https://bit.ly/3hnPSAj">
 					<FaWhatsapp size={37} />

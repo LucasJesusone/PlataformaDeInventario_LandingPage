@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import cx from 'classnames';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
 import ServicesCard from './ServicesCard';
 import { ServicesCardProps } from './ServicesCard/ServicesCard';
 import style from './Services.module.scss';
@@ -31,7 +31,7 @@ const Services: React.FC & ServicesComponent = () => {
 	return (
 		<div className={cx(style.serviceContainer, 'article-container')} id="Services">
 			<Container>
-				<Fade top={isDesktop} duration={2000} delay={500}>
+				<Fade left={isDesktop} right={isMobile} duration={2000} delay={500}>
 					<Row>
 						<Services.Card title="Interface Amigável">
 							O aplicativo Minv foi construido para ser simples e fácil de utilizar em qualquer aparelho{' '}

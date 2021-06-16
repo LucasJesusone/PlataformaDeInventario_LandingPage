@@ -31,7 +31,7 @@ const About: React.FC = () => {
 			<Title title="IMPLEMENTAÇÃO"></Title>
 			<Row className="space-around">
 				<Col sm={3} xs={12}>
-					<Fade left={isDesktop} delay={500} duration={1000}>
+					<Fade left={isDesktop} right={isMobile} delay={500} duration={1000}>
 						<div className={style.aboutItem}>
 							<img src={internetIcon} alt="internetIcon" />
 							<div className={cx(style.title, 'textSemibold')}>LEVANTAMENTO DE REQUISITOS</div>

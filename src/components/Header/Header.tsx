@@ -16,7 +16,6 @@ const Header: React.FC = () => {
 						<div className={style.divImage}>
 							<img src={image} alt="" className={style.image}/>
 						</div>
-
 					</Col>
 				</Row>
 			</Container>
